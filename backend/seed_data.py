@@ -8,7 +8,7 @@ personal_info_data = {
     "linkedin": "linkedin.com/in/umang-shukla-492144264",
     "github": "github.com/UMANG-SH941",
     "instagram": "instagram.com/retonotes_ix99",
-    "twitter": "x.com/Umangshukla02",
+    "twitter": "x.com/zXumangsh_",
     "bio": "As a Computer Science Engineering student with a passion for innovation and STEM, I am excited about exploring the dynamic fields of machine learning and artificial intelligence. My academic journey is focused on mastering AI, which I find both challenging and fascinating. I have a keen enthusiasm for robotics, computational natural sciences, and understanding the fundamental forces that govern our universe.",
     "profile_photo": None
 }
