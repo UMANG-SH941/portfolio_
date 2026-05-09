@@ -60,10 +60,17 @@ const Hero = () => {
             {/* Profile Photo */}
             <div className="w-32 h-32 rounded-full bg-[#000000] border-4 border-[#00FFD1] overflow-hidden flex items-center justify-center mb-6">
               {personalInfo?.profile_photo ? (
-                <img
-                  src={`${process.env.REACT_APP_BACKEND_URL}${personalInfo.profile_photo}`}
-                  alt={personalInfo.name}
-                  className="w-full h-full object-cover"
+               <img
+               src={
+                   personalInfo?.profile_photo
+                  ? `${process.env.REACT_APP_BACKEND_URL}${personalInfo.profile_photo}`
+                  : "https://via.placeholder.com/150"
+                   }
+              alt={personalInfo.name}
+               className="w-full h-full object-cover"
+               onError={(e) => {
+               e.target.src = "https://via.placeholder.com/150";
+                }}
                 />
               ) : (
                 <User size={48} className="text-[#00FFD1]" />
