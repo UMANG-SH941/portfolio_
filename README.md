@@ -89,7 +89,7 @@ B.Tech CSE (AI/ML)
 
 - GitHub: https://github.com/UMANG-SH941
 - LinkedIn: https://linkedin.com/in/umang-shukla-492144264
-- X: https://x.com/zXumangsh_
+- X: [https://x.com/zXumangsh_](https://x.com/zXumangsh)
 
 ---
 
