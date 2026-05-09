@@ -53,15 +53,6 @@ const Hero = () => {
 
       {/* Admin Panel */}
 
-      {/* Admin Button */}
-      <button
-        onClick={() => setShowAdmin(true)}
-        className="fixed bottom-8 right-8 z-40 bg-[#00FFD1] text-[#000000] p-4 rounded-full transition-all duration-300 hover:scale-110 hover:bg-[#6FD2C0]"
-        aria-label="Admin Panel"
-      >
-        <Settings size={24} />
-      </button>
-
       <div className="max-w-[1400px] mx-auto px-[7.6923%] py-32 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
