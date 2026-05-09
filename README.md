@@ -67,11 +67,10 @@ Focused on:
 ![Projects](./Screenshot%202026-05-09%20170736.png)
 
 ## Skills Section
-![Skills](./Screenshot%202026-05-09%20170750.png)
+![Skills](./Screenshot%202026-05-09%20170801.png)
 
 ## Contact Section
-![Contact](./Screenshot%202026-05-09%20170801.png)
-
+![Contact](./Screenshot%2026-05-09%170818.png)
 ---
 
 # 🔗 Live Website
