@@ -6,7 +6,7 @@
 
 ---
 
-# 🌌 PARTICLE PHYSICS INSPIRED Portfolio
+# 🌌 ATOM INSPIRED PORTFOLIO
 
 A modern cyberpunk-inspired portfolio built with:
 
