@@ -1,4 +1,4 @@
-# 🚀 Umang Shukla Portfolio
+# 🚀 Portfolio
 
 <p align="center">
   <img src="./portfolio_.png" width="100%" />
