@@ -6,7 +6,7 @@
 
 ---
 
-# 🌌 Futuristic AI/ML Portfolio
+# 🌌 PARTICLE PHYSICS INSPIRED Portfolio
 
 A modern cyberpunk-inspired portfolio built with:
 
@@ -60,17 +60,17 @@ Focused on:
 
 # 📸 Portfolio Preview
 
-## Hero Section
+## Head Section
 ![Hero](./Screenshot%202026-05-09%20170712.png)
 
 ## Projects Section
-![Projects](./Screenshot%202026-05-09%20170801.png)
+![Projects](./Screenshot%202026-05-09%20170736.png)
 
 ## Skills Section
 ![Skills](./Screenshot%202026-05-09%20170750.png)
 
 ## Contact Section
-![Contact](./Screenshot%202026-05-09%20170736.png)
+![Contact](./Screenshot%202026-05-09%20170801.png)
 
 ---
 
