@@ -7,6 +7,7 @@ import logging
 from pathlib import Path
 from typing import List, Optional
 import shutil
+from fastapi.staticfiles import StaticFiles
 from models import (
     PersonalInfo, Experience, Project, Skills, Education,
     Certification, Language, ContactMessage, ContactMessageCreate
@@ -27,6 +28,15 @@ db = client[os.environ['DB_NAME']]
 
 # Create the main app without a prefix
 app = FastAPI()
+# =========================
+# UPLOADS CONFIGURATION
+# =========================
+
+UPLOAD_DIR = Path("uploads")
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+
+from fastapi.staticfiles import StaticFiles
+app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
@@ -174,27 +184,41 @@ async def submit_contact(contact_data: ContactMessageCreate):
 @api_router.post("/upload-profile-photo")
 async def upload_profile_photo(file: UploadFile = File(...)):
     try:
-        # Create uploads directory if it doesn't exist
-        upload_dir = Path("/app/backend/uploads")
-        upload_dir.mkdir(exist_ok=True)
-        
+        # Create uploads directory
+        upload_dir = Path("uploads")
+        upload_dir.mkdir(parents=True, exist_ok=True)
+
+        # Safe filename
+        filename = f"profile_{file.filename}"
+        file_path = upload_dir / filename
+
         # Save file
-        file_path = upload_dir / f"profile_{file.filename}"
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
-        
+
+        # Public URL
+        photo_url = f"/uploads/{filename}"
+
         # Update database
-        photo_url = f"/uploads/profile_{file.filename}"
         await db.personal_info.update_one(
             {},
             {"$set": {"profile_photo": photo_url}}
         )
-        
+
         logger.info(f"Profile photo uploaded: {photo_url}")
-        return {"success": True, "photo_url": photo_url}
+
+        return {
+            "success": True,
+            "photo_url": photo_url
+        }
+
     except Exception as e:
         logger.error(f"Error uploading profile photo: {str(e)}")
-        raise HTTPException(status_code=500, detail=str(e))
+
+        raise HTTPException(
+            status_code=500,
+            detail=str(e)
+        )
 
 
 # Create Project
