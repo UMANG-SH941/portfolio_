@@ -70,7 +70,8 @@ Focused on:
 ![Skills](./Screenshot%202026-05-09%20170801.png)
 
 ## Contact Section
-![Contact](./Screenshot%2026-05-09%170818.png)
+![Contact](./Screenshot%202026-05-09%20170818.png)
+
 ---
 
 # 🔗 Live Website
