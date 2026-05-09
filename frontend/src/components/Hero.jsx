@@ -9,7 +9,6 @@ const Spline = React.lazy(() => import('@splinetool/react-spline'));
 const Hero = () => {
   const [personalInfo, setPersonalInfo] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [showAdmin, setShowAdmin] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -53,7 +52,6 @@ const Hero = () => {
       />
 
       {/* Admin Panel */}
-      {showAdmin && <AdminPanel onClose={() => setShowAdmin(false)} />}
 
       {/* Admin Button */}
       <button
