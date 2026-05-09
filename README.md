@@ -4,6 +4,27 @@
   <img src="./portfolio_.png" width="100%" />
 </p>
 
+# 📸 Portfolio Preview
+
+## Head Section
+![Hero](./Screenshot%202026-05-09%20170712.png)
+
+## Projects Section
+![Projects](./Screenshot%202026-05-09%20170736.png)
+
+## Skills Section
+![Skills](./Screenshot%202026-05-09%20170801.png)
+
+## Contact Section
+![Contact](./Screenshot%202026-05-09%20170818.png)
+
+---
+
+# 🔗 Live Website
+
+🌍 https://portfolio-two-neon-52.vercel.app
+
+---
 ---
 
 # 🌌 ATOM INSPIRED PORTFOLIO
@@ -55,28 +76,6 @@ Focused on:
 ## Deployment
 - Vercel
 - Railway
-
----
-
-# 📸 Portfolio Preview
-
-## Head Section
-![Hero](./Screenshot%202026-05-09%20170712.png)
-
-## Projects Section
-![Projects](./Screenshot%202026-05-09%20170736.png)
-
-## Skills Section
-![Skills](./Screenshot%202026-05-09%20170801.png)
-
-## Contact Section
-![Contact](./Screenshot%202026-05-09%20170818.png)
-
----
-
-# 🔗 Live Website
-
-🌍 https://portfolio-two-neon-52.vercel.app
 
 ---
 
