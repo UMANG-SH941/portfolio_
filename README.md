@@ -89,7 +89,7 @@ B.Tech CSE (AI/ML)
 
 - GitHub: https://github.com/UMANG-SH941
 - LinkedIn: https://linkedin.com/in/umang-shukla-492144264
-- X: https://x.com/Umangshukla02
+- X: https://x.com/zXumangsh_
 
 ---
 
@@ -99,4 +99,4 @@ B.Tech CSE (AI/ML)
 - Quantum Computing Simulations
 - Robotics + IoT Systems
 - Open Source Contributions
-- Computational Natural Sciences# Here are your Instructions
+- Computational Natural Sciences
